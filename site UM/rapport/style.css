@@ -1,0 +1,22 @@
+html{   
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 25px solid red;
+}
+
+p{
+    font-family: 'Bangers', cursive;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: white
+    
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: white
+}

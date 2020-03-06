@@ -1,0 +1,45 @@
+html{   
+  width: 1400px;
+  margin: 0 auto;
+  background-image: url(images/matrix.jpg);
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+p{
+    color: red;
+    font-size: x-large;
+    
+}
+
+li{
+    color:#15C801;
+    font-size: large;
+}
+    
+h1 {
+  margin: 0;
+  padding: 10px 400;    
+  color: orangered;
+  font-size: 250%;
+  
+
+  }
+    
+ h2 {
+  margin: 0;
+  padding: 10px 490;    
+  color: orangered;
+  font-size: 250%;
+  }
+
+h3 {
+  margin: 0;
+  padding: 25px 460;    
+  color: orangered;
+  font-size: 250%;
+    }
+a{
+    color: #15C801
+}
+}

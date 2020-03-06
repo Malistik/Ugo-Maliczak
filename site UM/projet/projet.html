@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <link rel="stylesheet" href="style.css" />
+        <title>projet NSI</title>
+    </head>
+    <body>
+        <h1>Présentation de Projet en <strong>NSI</strong></h1>
+        <p>Differents projet ont été éffectué en cours de <strong>NSI</strong> pour pouvoir maitriser certaines connaissance de base dans l'informatique en globalité. </p>
+        <p>L'un des thème étudié recemment sont les algorithme de tri. Il en existe deux : </p>
+        
+        <ol>
+        <li><strong>L'algorithme "naïf" : Tri par Selection</strong></li>
+        <li><strong>L'algorithme "avancé" : Tri par Insertion</strong></li>
+        </ol>
+    
+        <img src="images/tri.png" width = 500px />
+        
+        <h2>L'algorithme Naïf : </h2>
+        <p><strong>L'algorithme naïf</strong> va rechercher le plus grand élément (ou le plus petit), le placer en fin de tableau (ou en début), recommencer avec le second plus grand (ou le second plus petit), le placer en avant-dernière position (ou en seconde position) et ainsi de suite jusqu'à avoir parcouru la totalité du tableau.</p>
+        <p>Voici son algorithme:</p>
+         <img src="images/sele.png" width = 400px />
+        <p>La complexité de cet algorithme en nombre de comparaison est de de l'ordre de n², que l'on écrit O(n²). </p>
+        
+       
+        <h3>L'algorithme Avancé : </h3>
+        <p><strong>L'algorithme avancé</strong> consiste à piocher une à une les valeurs du tableau et à les insérer, au bon endroit, dans le tableau trié constitué des valeurs précédemment piochées et triées. Les valeurs sont piochées dans l’ordre où elles apparaissent dans le tableau.</p>
+        <p>Voici son algorithme:</p>
+        <img src="images/inser.jpg" width = 400px />
+        <p>La complexité de cet algorithme est differente selon cas:</p>
+        <ol>
+            <li>Dans le pire des cas, avec des données triées à l'envers, les parcours successifs du tableau imposent d'effectuer (n-1)+(n-2)+(n-3)..+1 comparaisons et échanges, soit (n2-n)/2. On a donc une complexité dans le pire des cas du tri par insertion en Θ(n2). </li>
+            <li>i tous les éléments de la série à trier sont distincts et que toutes leurs permutations sont équiprobables, la complexité en moyenne de l'algorithme est de l'ordre de (n2-n)/4 comparaisons et échanges. La complexité en moyenne du tri par insertion est donc également en Θ(n2)</li>
+            <li>Dans le meilleur des cas, avec des données déjà triées, l'algorithme effectura seulement n comparaisons. Sa complexité dans le meilleur des cas est donc en Θ(n).</li>
+        </ol>
+        
+        <p>Vous pouvez trouver le code en Python ci dessous:<a href="files/Triinsertion.py"></a></p>
+        <a href="files/Triinsertion.py">Triinsertion.py</a>
+        
+        <ul>
+        <li><a href="../main/main.html">Accueil</a></li>
+        <li><a href="../rapport/Rapport.html">Rapport</a></li>
+        </ul>
+        
+        
+    
+    
+    
+    
+    </body>
+</html>
